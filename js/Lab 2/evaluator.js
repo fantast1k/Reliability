@@ -10,11 +10,11 @@ var t_zad;
 initLab2Data();
 
 function initLab2Data() {
-    n = 11;
-    nr = 4;
-    m = 4;
-    L = 0.0012;
-    L_or = 0.0006;
+    n = 10;
+    nr = 3;
+    m = 2;
+    L = 0.0010;
+    L_or = 0.0008;
     L_pu = 0.0001;
     L_me = 0.0001;
     t_zad = 1000;

@@ -32,21 +32,21 @@ var L_kc;
 var L_k;
 
 function init() {
-    L_mn_ao = 2.5e-8;
-    L_pr_ao = 1.9e-8;
-    L_pm_ao = 2.2e-8;
-    L_bp_ao = 2.0e-8;
-    alpha = 2.6;
+    L_mn_ao = 2.9e-8;
+    L_pr_ao = 1.4e-8;
+    L_pm_ao = 2.4e-8;
+    L_bp_ao = 1.9e-8;
+    alpha = 2.3;
     beta = 7e2;
-    t = 1.9e4;
-    k_tem = 1.6;
+    t = 0.6e4;
+    k_tem = 2.5;
     k_vib = 1.5;
-    k_per = 1.7;
-    tx = 1.8e4;
-    G = 0.7e2;
-    r = 0.3;
-    gamma = 75;
-    delta_t = 2e3;
+    k_per = 1.2;
+    tx = 0.6e4;
+    G = 1.0e2;
+    r = 0.6;
+    gamma = 65;
+    delta_t = 0.5e3;
 
     calculateLambda();
 }
